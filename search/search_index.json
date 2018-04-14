@@ -1,0 +1,44 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Proucts\n\n\nnRF52832-MDK\n\n\n\n\nAn Open Source, Micro Development Kit for IoT Embedded Applications.\n\n\n\n\nThe nRF52832-MDK is a fully open-source, versatile single board development kit for \nBluetooth\n\u00ae low energy, ANT and 2.4GHz proprietary applications using the \nnRF52832\n SoC.\n\n\nThe kit gives access to 24 I/Os and interfaces via headers and has a RGB LED which is user-programmable. It also has a 2.4GHz chip antenna onboard which is quite convenient to develop IoT wireless applications. \n\n\nIt supports the Nordic offical SDK using GCC, Keil and IAR. Program/Debug options on the kit is \nDAPLink\n.\n\n\nThe nRF52832-MDK can also be used to play with multi-frameworks such as: nRF5 SDK, nRF5 SDK for Mesh, Mbed OS 5, Zephyr, Mynewt, JerryScript, Espruino, MicroPython, Web Bluetooth, Eddystone, etc.\n\n\n\n\nLearn more", 
+            "title": "Products"
+        }, 
+        {
+            "location": "/#proucts", 
+            "text": "", 
+            "title": "Proucts"
+        }, 
+        {
+            "location": "/#nrf52832-mdk", 
+            "text": "An Open Source, Micro Development Kit for IoT Embedded Applications.   The nRF52832-MDK is a fully open-source, versatile single board development kit for  Bluetooth \u00ae low energy, ANT and 2.4GHz proprietary applications using the  nRF52832  SoC.  The kit gives access to 24 I/Os and interfaces via headers and has a RGB LED which is user-programmable. It also has a 2.4GHz chip antenna onboard which is quite convenient to develop IoT wireless applications.   It supports the Nordic offical SDK using GCC, Keil and IAR. Program/Debug options on the kit is  DAPLink .  The nRF52832-MDK can also be used to play with multi-frameworks such as: nRF5 SDK, nRF5 SDK for Mesh, Mbed OS 5, Zephyr, Mynewt, JerryScript, Espruino, MicroPython, Web Bluetooth, Eddystone, etc.   Learn more", 
+            "title": "nRF52832-MDK"
+        }, 
+        {
+            "location": "/CONTRIBUTING/", 
+            "text": "Interested in contributing to the developer docs? Want to report a bug? Before you do, please read the following guidelines.\n\n\nGot a question or problem?\n\n\nFor quick questions there's no need to open an issue as you can reach us on \nmakerdiary/Community\n.\n\n\nCommunity\n\n\nFound a bug?\n\n\nIf you found a bug in the source code, you can help us by submitting an issue to the \nissue tracker\n in our GitHub repository. Even better, you can submit a Pull Request with a fix.\n\n\nMissing a feature?\n\n\nYou can request a new feature by submitting an issue to our GitHub Repository. Be sure that it is of use for everyone.\n\n\n New Issue", 
+            "title": "Contributing"
+        }, 
+        {
+            "location": "/CONTRIBUTING/#got-a-question-or-problem", 
+            "text": "For quick questions there's no need to open an issue as you can reach us on  makerdiary/Community .  Community", 
+            "title": "Got a question or problem?"
+        }, 
+        {
+            "location": "/CONTRIBUTING/#found-a-bug", 
+            "text": "If you found a bug in the source code, you can help us by submitting an issue to the  issue tracker  in our GitHub repository. Even better, you can submit a Pull Request with a fix.", 
+            "title": "Found a bug?"
+        }, 
+        {
+            "location": "/CONTRIBUTING/#missing-a-feature", 
+            "text": "You can request a new feature by submitting an issue to our GitHub Repository. Be sure that it is of use for everyone.   New Issue", 
+            "title": "Missing a feature?"
+        }, 
+        {
+            "location": "/LICENSE/", 
+            "text": "MIT License\n\n\nCopyright \n 2018 \nmakerdiary.co\n\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.", 
+            "title": "License"
+        }
+    ]
+}
