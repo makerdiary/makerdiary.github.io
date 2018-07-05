@@ -2,18 +2,53 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Proucts\n\n\nnRF52832-MDK\n\n\n\n\nAn Open Source, Micro Development Kit for IoT Embedded Applications.\n\n\n\n\nThe nRF52832-MDK is a fully open-source, versatile single board development kit for \nBluetooth\n\u00ae low energy, ANT and 2.4GHz proprietary applications using the \nnRF52832\n SoC.\n\n\nThe kit gives access to 24 I/Os and interfaces via headers and has a RGB LED which is user-programmable. It also has a 2.4GHz chip antenna onboard which is quite convenient to develop IoT wireless applications. \n\n\nIt supports the Nordic offical SDK using GCC, Keil and IAR. Program/Debug options on the kit is \nDAPLink\n.\n\n\nThe nRF52832-MDK can also be used to play with multi-frameworks such as: nRF5 SDK, nRF5 SDK for Mesh, Mbed OS 5, Zephyr, Mynewt, JerryScript, Espruino, MicroPython, Web Bluetooth, Eddystone, etc.\n\n\n\n\nLearn more", 
-            "title": "Products"
+            "text": "Welcom to Makerdiary Wiki !\n\n\nThank you for choosing our products. We have done our best to make it a pleasure to work with them.\n\n\nThe Makerdiary Wiki contains technical documentation for our current products and technologies.\n\n\nFor information on how to purchase our products, visit our \nBuy Online\n page.\n\n\nGet the latest source code and resources at our \nGitHub\n repos.\n\n\nPost questions and share experiences with other developers at our \nCommunity\n page.\n\n\nVIEW ALL", 
+            "title": "Overview"
         }, 
         {
-            "location": "/#proucts", 
+            "location": "/#welcom-to-makerdiary-wiki", 
+            "text": "Thank you for choosing our products. We have done our best to make it a pleasure to work with them.  The Makerdiary Wiki contains technical documentation for our current products and technologies.  For information on how to purchase our products, visit our  Buy Online  page.  Get the latest source code and resources at our  GitHub  repos.  Post questions and share experiences with other developers at our  Community  page.  VIEW ALL", 
+            "title": "Welcom to Makerdiary Wiki !"
+        }, 
+        {
+            "location": "/iot-hw/", 
+            "text": "IoT Hardware Platform\n\n\n\n\n\n\n\n\nnRF52832-MDK V1\n\n\nnRF52832-MDK V2\n\n\n\n\n\n\n\n\n\n\n \nGetting Started\n\n\n \nGetting Started\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nnRF52840-MDK\n\n\n\n\n\n\n\n\n\n\n\n\n \nGetting Started", 
+            "title": "IoT Hardware Platform"
+        }, 
+        {
+            "location": "/iot-hw/#iot-hardware-platform", 
+            "text": "nRF52832-MDK V1  nRF52832-MDK V2        Getting Started    Getting Started        nRF52840-MDK         Getting Started", 
+            "title": "IoT Hardware Platform"
+        }, 
+        {
+            "location": "/iot-hw/", 
+            "text": "IoT Hardware Platform\n\n\n\n\n\n\n\n\nnRF52832-MDK V1\n\n\nnRF52832-MDK V2\n\n\n\n\n\n\n\n\n\n\n \nGetting Started\n\n\n \nGetting Started\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nnRF52840-MDK\n\n\n\n\n\n\n\n\n\n\n\n\n \nGetting Started", 
+            "title": "IoT Hardware Platform"
+        }, 
+        {
+            "location": "/iot-hw/#iot-hardware-platform", 
+            "text": "nRF52832-MDK V1  nRF52832-MDK V2        Getting Started    Getting Started        nRF52840-MDK         Getting Started", 
+            "title": "IoT Hardware Platform"
+        }, 
+        {
+            "location": "/how-to-buy/", 
+            "text": "How to Buy Our Products\n\n\nBuy Online\n\n\nAll our items are available on the following channels:\n\n\n\n\n\n\n\n\nBulk \n Customization\n\n\nWe are ready to customize our electronics and firmware to better meet your solution's needs. Many of our platforms are prepared for customization.\n\n\nIf you would like to do some serious business, \ndrop a line\n and we'll reply before you know it.\n\n\n Email Us", 
+            "title": "How to Buy"
+        }, 
+        {
+            "location": "/how-to-buy/#how-to-buy-our-products", 
             "text": "", 
-            "title": "Proucts"
+            "title": "How to Buy Our Products"
         }, 
         {
-            "location": "/#nrf52832-mdk", 
-            "text": "An Open Source, Micro Development Kit for IoT Embedded Applications.   The nRF52832-MDK is a fully open-source, versatile single board development kit for  Bluetooth \u00ae low energy, ANT and 2.4GHz proprietary applications using the  nRF52832  SoC.  The kit gives access to 24 I/Os and interfaces via headers and has a RGB LED which is user-programmable. It also has a 2.4GHz chip antenna onboard which is quite convenient to develop IoT wireless applications.   It supports the Nordic offical SDK using GCC, Keil and IAR. Program/Debug options on the kit is  DAPLink .  The nRF52832-MDK can also be used to play with multi-frameworks such as: nRF5 SDK, nRF5 SDK for Mesh, Mbed OS 5, Zephyr, Mynewt, JerryScript, Espruino, MicroPython, Web Bluetooth, Eddystone, etc.   Learn more", 
-            "title": "nRF52832-MDK"
+            "location": "/how-to-buy/#buy-online", 
+            "text": "All our items are available on the following channels:", 
+            "title": "Buy Online"
+        }, 
+        {
+            "location": "/how-to-buy/#bulk-customization", 
+            "text": "We are ready to customize our electronics and firmware to better meet your solution's needs. Many of our platforms are prepared for customization.  If you would like to do some serious business,  drop a line  and we'll reply before you know it.   Email Us", 
+            "title": "Bulk &amp; Customization"
         }, 
         {
             "location": "/CONTRIBUTING/", 
@@ -37,7 +72,7 @@
         }, 
         {
             "location": "/LICENSE/", 
-            "text": "MIT License\n\n\nCopyright \n 2018 \nmakerdiary.co\n\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.", 
+            "text": "MIT License\n\n\nCopyright \n 2018 \nmakerdiary.com\n\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.", 
             "title": "License"
         }
     ]

@@ -4,7 +4,33 @@
     
     <url>
      <loc>https://wiki.makerdiary.co//</loc>
-     <lastmod>2018-04-14</lastmod>
+     <lastmod>2018-07-05</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>https://wiki.makerdiary.co//iot-hw/</loc>
+     <lastmod>2018-07-05</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+        
+    <url>
+     <loc>https://wiki.makerdiary.co//iot-hw/</loc>
+     <lastmod>2018-07-05</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+    <url>
+     <loc>https://wiki.makerdiary.co//how-to-buy/</loc>
+     <lastmod>2018-07-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,7 +38,7 @@
     
     <url>
      <loc>https://wiki.makerdiary.co//CONTRIBUTING/</loc>
-     <lastmod>2018-04-14</lastmod>
+     <lastmod>2018-07-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -20,7 +46,7 @@
     
     <url>
      <loc>https://wiki.makerdiary.co//LICENSE/</loc>
-     <lastmod>2018-04-14</lastmod>
+     <lastmod>2018-07-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
