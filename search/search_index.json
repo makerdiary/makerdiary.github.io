@@ -2,13 +2,18 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Welcom to Makerdiary Wiki !\n\n\nThank you for choosing our products. We have done our best to make it a pleasure to work with them.\n\n\nThe Makerdiary Wiki contains technical documentation for our current products and technologies.\n\n\nFor information on how to purchase our products, visit our \nBuy Online\n page.\n\n\nGet the latest source code and resources at our \nGitHub\n repos.\n\n\nPost questions and share experiences with other developers at our \nCommunity\n page.\n\n\nVIEW ALL", 
+            "text": "Welcom to Makerdiary Wiki !\n\n\nThank you for choosing our products. We have done our best to make it a pleasure to work with them.\n\n\nThe Makerdiary Wiki contains technical documentation for our current products and technologies.\n\n\nFor information on how to purchase our products, visit our \nBuy Online\n page.\n\n\nGet the latest source code and resources at our \nGitHub\n repos.\n\n\nPost questions and share experiences with other developers at our \nCommunity\n page.\n\n\nIoT Hardware Platform\n\n\n\n\n\n\n\n\nnRF52832-MDK V1\n\n\nnRF52832-MDK V2\n\n\n\n\n\n\n\n\n\n\n \nGetting Started\n\n\n \nGetting Started\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nnRF52840-MDK\n\n\n\n\n\n\n\n\n\n\n\n\n \nGetting Started", 
             "title": "Overview"
         }, 
         {
             "location": "/#welcom-to-makerdiary-wiki", 
-            "text": "Thank you for choosing our products. We have done our best to make it a pleasure to work with them.  The Makerdiary Wiki contains technical documentation for our current products and technologies.  For information on how to purchase our products, visit our  Buy Online  page.  Get the latest source code and resources at our  GitHub  repos.  Post questions and share experiences with other developers at our  Community  page.  VIEW ALL", 
+            "text": "Thank you for choosing our products. We have done our best to make it a pleasure to work with them.  The Makerdiary Wiki contains technical documentation for our current products and technologies.  For information on how to purchase our products, visit our  Buy Online  page.  Get the latest source code and resources at our  GitHub  repos.  Post questions and share experiences with other developers at our  Community  page.", 
             "title": "Welcom to Makerdiary Wiki !"
+        }, 
+        {
+            "location": "/#iot-hardware-platform", 
+            "text": "nRF52832-MDK V1  nRF52832-MDK V2        Getting Started    Getting Started        nRF52840-MDK         Getting Started", 
+            "title": "IoT Hardware Platform"
         }, 
         {
             "location": "/iot-hw/", 
