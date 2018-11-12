@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Welcom to Makerdiary Wiki !\n\n\nThank you for choosing our products. We have done our best to make it a pleasure to work with them.\n\n\nThe Makerdiary Wiki contains technical documentation for our current products and technologies.\n\n\nFor information on how to purchase our products, visit our \nBuy Online\n page.\n\n\nGet the latest source code and resources at our \nGitHub\n repos.\n\n\nPost questions and share experiences with other developers at our \nCommunity\n page.\n\n\nIoT Hardware Platform\n\n\n\n\n\n\n\n\nnRF52832-MDK V1\n\n\nnRF52832-MDK V2\n\n\n\n\n\n\n\n\n\n\n \nGetting Started\n\n\n \nGetting Started\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nnRF52840-MDK\n\n\nnRF52840 Micro Dev Kit USB Dongle\n\n\n\n\n\n\n\n\n\n\n \nGetting Started\n\n\n \nGetting Started", 
+            "text": "Welcom to Makerdiary Wiki !\n\n\nThank you for choosing our products. We have done our best to make it a pleasure to work with them.\n\n\nThe Makerdiary Wiki contains technical documentation for our current products and technologies.\n\n\nFor information on how to purchase our products, visit our \nBuy Online\n page.\n\n\nGet the latest source code and resources at our \nGitHub\n repos.\n\n\nPost questions and share experiences with other developers at our \nCommunity\n page.\n\n\nIoT Hardware Platform\n\n\n\n\n\n\n\n\nnRF52832-MDK V1\n\n\nnRF52832-MDK V2\n\n\n\n\n\n\n\n\n\n\n \nGet One!\n\n\n \nGet One!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nnRF52840-MDK\n\n\nnRF52840 Micro Dev Kit USB Dongle\n\n\n\n\n\n\n\n\n\n\n \nGet One!\n\n\n \nGet One!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBase Dock (Grove Compatible)\n\n\n\n\n\n\n\n\n\n\n\n\n \nGet One!", 
             "title": "Overview"
         }, 
         {
@@ -12,27 +12,27 @@
         }, 
         {
             "location": "/#iot-hardware-platform", 
-            "text": "nRF52832-MDK V1  nRF52832-MDK V2        Getting Started    Getting Started        nRF52840-MDK  nRF52840 Micro Dev Kit USB Dongle        Getting Started    Getting Started", 
+            "text": "nRF52832-MDK V1  nRF52832-MDK V2        Get One!    Get One!        nRF52840-MDK  nRF52840 Micro Dev Kit USB Dongle        Get One!    Get One!        Base Dock (Grove Compatible)         Get One!", 
             "title": "IoT Hardware Platform"
         }, 
         {
             "location": "/iot-hw/", 
-            "text": "IoT Hardware Platform\n\n\n\n\n\n\n\n\nnRF52832-MDK V1\n\n\nnRF52832-MDK V2\n\n\n\n\n\n\n\n\n\n\n \nGetting Started\n\n\n \nGetting Started\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nnRF52840-MDK\n\n\nnRF52840 Micro Dev Kit USB Dongle\n\n\n\n\n\n\n\n\n\n\n \nGetting Started\n\n\n \nGetting Started", 
+            "text": "IoT Hardware Platform\n\n\n\n\n\n\n\n\nnRF52832-MDK V1\n\n\nnRF52832-MDK V2\n\n\n\n\n\n\n\n\n\n\n \nGet One!\n\n\n \nGet One!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nnRF52840-MDK\n\n\nnRF52840 Micro Dev Kit USB Dongle\n\n\n\n\n\n\n\n\n\n\n \nGet One!\n\n\n \nGet One!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBase Dock (Grove Compatible)\n\n\n\n\n\n\n\n\n\n\n\n\n \nGet One!", 
             "title": "IoT Hardware Platform"
         }, 
         {
             "location": "/iot-hw/#iot-hardware-platform", 
-            "text": "nRF52832-MDK V1  nRF52832-MDK V2        Getting Started    Getting Started        nRF52840-MDK  nRF52840 Micro Dev Kit USB Dongle        Getting Started    Getting Started", 
+            "text": "nRF52832-MDK V1  nRF52832-MDK V2        Get One!    Get One!        nRF52840-MDK  nRF52840 Micro Dev Kit USB Dongle        Get One!    Get One!        Base Dock (Grove Compatible)         Get One!", 
             "title": "IoT Hardware Platform"
         }, 
         {
             "location": "/iot-hw/", 
-            "text": "IoT Hardware Platform\n\n\n\n\n\n\n\n\nnRF52832-MDK V1\n\n\nnRF52832-MDK V2\n\n\n\n\n\n\n\n\n\n\n \nGetting Started\n\n\n \nGetting Started\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nnRF52840-MDK\n\n\nnRF52840 Micro Dev Kit USB Dongle\n\n\n\n\n\n\n\n\n\n\n \nGetting Started\n\n\n \nGetting Started", 
+            "text": "IoT Hardware Platform\n\n\n\n\n\n\n\n\nnRF52832-MDK V1\n\n\nnRF52832-MDK V2\n\n\n\n\n\n\n\n\n\n\n \nGet One!\n\n\n \nGet One!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nnRF52840-MDK\n\n\nnRF52840 Micro Dev Kit USB Dongle\n\n\n\n\n\n\n\n\n\n\n \nGet One!\n\n\n \nGet One!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBase Dock (Grove Compatible)\n\n\n\n\n\n\n\n\n\n\n\n\n \nGet One!", 
             "title": "IoT Hardware Platform"
         }, 
         {
             "location": "/iot-hw/#iot-hardware-platform", 
-            "text": "nRF52832-MDK V1  nRF52832-MDK V2        Getting Started    Getting Started        nRF52840-MDK  nRF52840 Micro Dev Kit USB Dongle        Getting Started    Getting Started", 
+            "text": "nRF52832-MDK V1  nRF52832-MDK V2        Get One!    Get One!        nRF52840-MDK  nRF52840 Micro Dev Kit USB Dongle        Get One!    Get One!        Base Dock (Grove Compatible)         Get One!", 
             "title": "IoT Hardware Platform"
         }, 
         {
