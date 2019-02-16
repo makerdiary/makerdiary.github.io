@@ -1,54 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-    
     <url>
-     <loc>https://wiki.makerdiary.com//</loc>
-     <lastmod>2018-11-12</lastmod>
+     <loc>https://wiki.makerdiary.com/</loc>
+     <lastmod>2019-02-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
     <url>
-     <loc>https://wiki.makerdiary.com//iot-hw/</loc>
-     <lastmod>2018-11-12</lastmod>
+     <loc>https://wiki.makerdiary.com/iot-hw/</loc>
+     <lastmod>2019-02-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
-        
     <url>
-     <loc>https://wiki.makerdiary.com//iot-hw/</loc>
-     <lastmod>2018-11-12</lastmod>
+     <loc>https://wiki.makerdiary.com/how-to-buy/</loc>
+     <lastmod>2019-02-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
-    
-
-    
     <url>
-     <loc>https://wiki.makerdiary.com//how-to-buy/</loc>
-     <lastmod>2018-11-12</lastmod>
+     <loc>https://wiki.makerdiary.com/CONTRIBUTING/</loc>
+     <lastmod>2019-02-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
     <url>
-     <loc>https://wiki.makerdiary.com//CONTRIBUTING/</loc>
-     <lastmod>2018-11-12</lastmod>
+     <loc>https://wiki.makerdiary.com/LICENSE/</loc>
+     <lastmod>2019-02-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
-    <url>
-     <loc>https://wiki.makerdiary.com//LICENSE/</loc>
-     <lastmod>2018-11-12</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
 </urlset>
