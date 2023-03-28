@@ -1,0 +1,95 @@
+<!--
+  Copyright (c) 2016-2022 Makerdiary
+-->
+
+{% extends "main.html" %}
+
+{% block tabs %}
+  {{ super() }}
+{% endblock %}
+
+<!-- Content -->
+{% block content %}
+  <style>
+    .md-typeset .grid {
+      grid-gap: 1.6rem 1.4rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(16rem,1fr));
+      margin: 1em 0
+    }
+
+    .md-typeset .grid.cards>ol,.md-typeset .grid.cards>ul {
+      display: contents
+    }
+
+    .md-typeset .grid.cards h3 {
+      text-align: center;
+      margin-top: 0.5rem;
+      margin-bottom: 1rem;
+      color: var(--md-default-fg-color--light);
+      font-size: 0.9rem;
+    }
+
+    .md-typeset .grid.cards .md-button {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 0.6rem;
+    }
+
+    .md-typeset .grid.cards>ol>li,.md-typeset .grid.cards>ul>li,.md-typeset .grid>.card {
+      border: .05rem solid var(--md-default-fg-color--lightest);
+      border-radius: .1rem;
+      display: block;
+      margin: 0;
+      padding: .8rem;
+      transition: border .25s,box-shadow .25s
+    }
+
+    .md-typeset .grid.cards>ol>li:focus-within,.md-typeset .grid.cards>ol>li:hover,.md-typeset .grid.cards>ul>li:focus-within,.md-typeset .grid.cards>ul>li:hover,.md-typeset .grid>.card:focus-within,.md-typeset .grid>.card:hover {
+      border-color: #0000;
+      box-shadow: var(--md-shadow-z2)
+    }
+  </style>
+
+  <!-- Collection -->
+  {% if config.theme.collection_all %}
+    {% if config.theme.collection_all.heading %}
+      <h1>{{ config.theme.collection_all.heading }}</h1>
+    {% endif %}
+    {% if config.theme.collection_all.cards %}
+      <div class="grid cards">
+        <ul>
+          {% for card in config.theme.collection_all.cards %}
+            <li>
+              <img src="{{ card.cover | url }}" alt="{{ card.title | e }}" loading="lazy">
+              <h3>{{ card.title }}</h3>
+              {% if card.button_primary.label and card.button_primary.link %}
+                <a
+                  href="{{ card.button_primary.link | url }}"
+                  title="{{ card.button_primary.label | e }}"
+                  class="md-button md-button--primary"
+                >
+                  {{ card.button_primary.label }}
+                </a>
+              {% endif %}
+              {% if card.button_secondary.label and card.button_secondary.link %}
+                <a
+                  href="{{ card.button_secondary.link | url }}"
+                  title="{{ card.button_secondary.label | e }}"
+                  class="md-button"
+                >
+                  {{ card.button_secondary.label }}
+                </a>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+  {% endif %}
+{% endblock %}
+  
+<!-- Application footer -->
+{% block footer %}
+{{ super() }}
+{% endblock %}

@@ -1,0 +1,307 @@
+# Copyright (c) 2016-2023 Makerdiary
+#
+# SPDX-License-Identifier: Apache-2.0
+
+# Project information
+site_name: Makerdiary Wiki
+site_url: https://wiki.makerdiary.com
+site_author: makerdiary
+site_description: >-
+  Learn how to develop with our featured products. Whether you're just getting started,
+  or deep in the development process, our documentations make building easy and efficient.
+
+# Repository
+repo_name: github.com/makerdiary
+repo_url: https://github.com/makerdiary
+edit_uri: ""
+#edit_uri: edit/main/docs
+
+# Copyright
+copyright: 'Copyright &copy; 2016-2023 <a href="https://makerdiary.com" target="_blank">makerdiary</a>'
+
+# Configuration
+theme:
+  name: material
+  custom_dir: docs/.overrides
+  features:
+    # - announce.dismiss
+    - content.code.annotate
+    - content.code.copy
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.indexes
+    - navigation.instant
+    - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - navigation.footer
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/favicon.png
+  icon:
+    logo: logo
+  # Announcement bar
+  announcement: ""
+
+  # Home page
+  home:
+    hero:
+      title: Welcome to Makerdiary Wiki
+      description: >-
+        Learn how to develop with all our products. Whether you're just getting started,
+        or deep in the development process, our documentations make building easy and efficient.
+      image: assets/images/home_hero.png
+      button_primary:
+        label: Get started
+        link: products
+      button_secondary:
+        label: Shop now
+        link: https://makerdiary.com/collections/all
+  collection_all:
+    heading: Featured products
+    cards:
+      - cover: assets/images/m60plate-cover.png
+        title: M60 Mechanical Keyboard Plate
+        button_primary:
+          label: Documentation
+          link: https://wiki.makerdiary.com/m60
+        button_secondary:
+          label: Buy now
+          link: https://makerdiary.com/products/m60-mechanical-keyboard-plate
+      - cover: assets/images/m60pcba-cover.png
+        title: M60 Mechanical Keyboard PCBA
+        button_primary:
+          label: Documentation
+          link: https://wiki.makerdiary.com/m60
+        button_secondary:
+          label: Buy now
+          link: https://makerdiary.com/products/m60-mechanical-keyboard-pcba
+      - cover: assets/images/m2devkit-cover.png
+        title: nRF52840 M.2 Developer Kit
+        button_primary:
+          label: Documentation
+          link: https://wiki.makerdiary.com/nrf52840-m2-devkit/
+        button_secondary:
+          label: Buy now
+          link: https://makerdiary.com/products/nrf52840-m2-developer-kit
+      - cover: assets/images/nrf52840-m2-module-cover.png
+        title: nRF52840 M.2 Module
+        button_primary:
+          label: Documentation
+          link: https://wiki.makerdiary.com/nrf52840-m2/
+        button_secondary:
+          label: Buy now
+          link: https://makerdiary.com/products/nrf52840-m2-module
+      - cover: assets/images/pitayalink-cover.png
+        title: Pitaya-Link CMSIS-DAP Debug Probe
+        button_primary:
+          label: Documentation
+          link: https://wiki.makerdiary.com/pitaya-link
+        button_secondary:
+          label: Buy now
+          link: https://makerdiary.com/products/pitaya-link
+      - cover: assets/images/pitaya-go-cover.png
+        title: Pitaya Go nRF52840 WiFi IoT Board
+        button_primary:
+          label: Documentation
+          link: https://wiki.makerdiary.com/pitaya-go
+        button_secondary:
+          label: Buy now
+          link: https://makerdiary.com/products/pitaya-go
+      - cover: assets/images/mdkdongle-pcba-cover.png
+        title: nRF52840 MDK USB Dongle (PCBA)
+        button_primary:
+          label: Documentation
+          link: https://wiki.makerdiary.com/nrf52840-mdk-usb-dongle
+        button_secondary:
+          label: Buy now
+          link: https://makerdiary.com/products/nrf52840-mdk-usb-dongle
+      - cover: assets/images/ud52840wcase-cover.png
+        title: nRF52840 MDK USB Dongle w/Case
+        button_primary:
+          label: Documentation
+          link: https://wiki.makerdiary.com/nrf52840-mdk-usb-dongle
+        button_secondary:
+          label: Buy now
+          link: https://makerdiary.com/products/nrf52840-mdk-usb-dongle-w-case
+      - cover: assets/images/mdk52840-cover.png
+        title: nRF52840-MDK IoT Development Kit
+        button_primary:
+          label: Documentation
+          link: https://wiki.makerdiary.com/nrf52840-mdk
+        button_secondary:
+          label: Buy now
+          link: https://makerdiary.com/products/nrf52840-mdk-iot-development-kit
+      - cover: assets/images/mdk52832v2-cover.png
+        title: nRF52832-MDK V2 IoT Development Kit
+        button_primary:
+          label: Documentation
+          link: https://wiki.makerdiary.com/nrf52832-mdk
+        button_secondary:
+          label: Buy now
+          link: https://makerdiary.com/products/nrf52832-mdk-v2-iot-development-kit
+      - cover: assets/images/mdk52832-cover.png
+        title: nRF52832-MDK IoT Development Kit
+        button_primary:
+          label: Documentation
+          link: https://wiki.makerdiary.com/nrf52832-mdk
+        button_secondary:
+          label: Buy now
+          link: https://makerdiary.com/products/nrf52832-mdk-iot-micro-development-kit
+      - cover: assets/images/base-dock-cover.png
+        title: Base Dock (Grove Compatible)
+        button_primary:
+          label: Documentation
+          link: https://wiki.makerdiary.com/base-dock
+        button_secondary:
+          label: Buy now
+          link: https://makerdiary.com/products/base-dock
+      - cover: assets/images/grove-mesh-kit-cover.png
+        title: Grove Mesh Kit for nRF52840-MDK
+        button_primary:
+          label: Documentation
+          link: https://wiki.makerdiary.com/grove-mesh-kit/
+        button_secondary:
+          label: Buy now
+          link: https://www.seeedstudio.com/Grove-Mesh-Kit-for-nRF52840-MDK-p-4053.html
+  blog:
+    heading: Latest updates
+    catalog: updates
+    newsletter: https://makerdiary.com/newsletter
+    articles:
+      - title: Meet M60 Mechanical Keyboard
+        cover: assets/images/m60-updates-cover.png
+        link: updates/meet-m60-mechanical-keyboard
+        date: July 13, 2020
+        reading_time: 2 min
+        excerpt: >-
+          A few months ago, we made a hand-wired keyboard powered by Python. It is a typical prototype
+          which got a lot of feedback. So we designed M60 to turn it into production.
+      - title: Programming nRF5x SoCs with Pitaya-Link
+        cover: assets/images/pitaya-link-guide-cover.png
+        link: updates/programming-with-pitaya-link
+        date: February 27, 2020
+        reading_time: 5 min
+        excerpt: >-
+          This post is intended to assist users in the initial setup and demonstration of programming
+          Nordic's nRF5x SoCs with Pitaya-Link, a low-cost debug probe based on the CMSIS-DAP.
+      - title: Getting started with Google OpenSK
+        cover: assets/images/ud52840-opensk-cover.png
+        link: updates/getting-started-with-google-opensk
+        date: February 16, 2020
+        reading_time: 10 min
+        excerpt: >-
+          This guide details how to get started with the OpenSK using the nRF52840 MDK USB Dongle
+          without going through the complete toolchain installation.
+
+# Plugins
+plugins:
+  - search
+  # - git-revision-date-localized
+  - minify:
+      minify_html: true
+  # TODO: Support Chinese
+  # - i18n:
+  #    default_language: en
+  #    languages:
+  #      en: English
+  #      zh: 简体中文
+
+# Customization
+extra:
+  generator: false
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
+  social:
+    - icon: fontawesome/brands/shopify
+      link: https://makerdiary.com
+    - icon: fontawesome/brands/github
+      link: https://github.com/makerdiary
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/makerdiary
+    - icon: fontawesome/brands/discourse
+      link: https://community.makerdiary.com
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UCX4nJNlsyj9VJeQOHgOs0yg
+    - icon: fontawesome/solid/blog
+      link: https://blog.makerdiary.com
+    - icon: fontawesome/brands/medium
+      link: https://medium.com/makerdiary
+    - icon: fontawesome/solid/envelope
+      link: mailto:hi@makerdiary.com
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: makerdiary
+      repo: makerdiary.github.io
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Page tree
+nav:
+  - Home: index.md
+  - Products:
+    - products/index.md
+  - Updates:
+    - updates/index.md
+    - Meet M60 Mechanical Keyboard: updates/meet-m60-mechanical-keyboard.md
+    - Programming nRF5x SoCs with Pitaya-Link: updates/programming-with-pitaya-link.md
+    - Getting started with Google OpenSK: updates/getting-started-with-google-opensk.md
+  - Discussions: https://github.com/orgs/makerdiary/discussions
