@@ -76,7 +76,7 @@ theme:
         link: products
       button_secondary:
         label: Shop now
-        link: https://makerdiary.com/collections/all
+        link: https://makerdiary.com/collections/all-products
   collection_all:
     heading: Featured products
     cards:
