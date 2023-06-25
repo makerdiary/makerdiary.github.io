@@ -82,6 +82,14 @@ theme:
   collection_all:
     heading: Featured products
     cards:
+      - cover: assets/images/nrf52840-connectkit-cover.png
+        title: nRF52840 Connect Kit
+        button_primary:
+          label: Documentation
+          link: https://wiki.makerdiary.com/nrf52840-connectkit
+        button_secondary:
+          label: Buy now
+          link: https://makerdiary.com/products/nrf52840-connectkit
       - cover: assets/images/m60plate-cover.png
         title: M60 Mechanical Keyboard Plate
         button_primary:
@@ -191,6 +199,14 @@ theme:
     catalog: updates
     newsletter: https://makerdiary.com/newsletter
     articles:
+      - title: nRF52840 Connect Kit is Here!
+        cover: assets/images/nrf52840-connectkit-intro-cover.png
+        link: updates/nrf52840-connectkit-is-here
+        date: June 25, 2023
+        reading_time: 3 min
+        excerpt: >-
+          We are excited to announce the nRF52840 Connect Kit! It comes with a more mainstream form factor,
+          USB-C, 64 Mbit QSPI flash, flexible power management and a rich set of features.
       - title: Meet M60 Mechanical Keyboard
         cover: assets/images/m60-updates-cover.png
         link: updates/meet-m60-mechanical-keyboard
@@ -303,6 +319,7 @@ nav:
     - products/index.md
   - Updates:
     - updates/index.md
+    - nRF52840 Connect Kit is Here!: updates/nrf52840-connectkit-is-here.md
     - Meet M60 Mechanical Keyboard: updates/meet-m60-mechanical-keyboard.md
     - Programming nRF5x SoCs with Pitaya-Link: updates/programming-with-pitaya-link.md
     - Getting started with Google OpenSK: updates/getting-started-with-google-opensk.md
