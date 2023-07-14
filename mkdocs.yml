@@ -199,6 +199,15 @@ theme:
     catalog: updates
     newsletter: https://makerdiary.com/newsletter
     articles:
+      - title: Introducing CircuitPython
+        cover: assets/images/introducing-circuitpython-cover.png
+        link: updates/introducing-circuitpython
+        date: July 14, 2023
+        reading_time: 5 min
+        excerpt: >-
+          CircuitPython is an implementation of Python for microcontrollers. With CircuitPython, there are
+          no upfront desktop downloads needed. Once you get your board set up, open any text editor,
+          and start editing code.
       - title: nRF52840 Connect Kit is Here!
         cover: assets/images/nrf52840-connectkit-intro-cover.png
         link: updates/nrf52840-connectkit-is-here
@@ -319,6 +328,7 @@ nav:
     - products/index.md
   - Updates:
     - updates/index.md
+    - Introducing CircuitPython: updates/introducing-circuitpython.md
     - nRF52840 Connect Kit is Here!: updates/nrf52840-connectkit-is-here.md
     - Meet M60 Mechanical Keyboard: updates/meet-m60-mechanical-keyboard.md
     - Programming nRF5x SoCs with Pitaya-Link: updates/programming-with-pitaya-link.md
