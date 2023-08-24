@@ -5,3 +5,5 @@ hide:
   - navigation
   - toc
 ---
+
+# What's new

@@ -1,27 +1,16 @@
 ---
-template: article.html
+title: Getting started with Google OpenSK
+date: 2020-02-09
+authors:
+  - makerdiary
+cover: cover.png
 description: >
- This guide details how to get started with the OpenSK using the nRF52840 MDK USB Dongle without going through the complete toolchain installation.
-search:
-  exclude: false
-hide:
-  - feedback
+ This post details how to get started with the OpenSK using the nRF52840 MDK USB Dongle without going through the complete toolchain installation.
 ---
 
+![](cover.png){ loading=lazy }
+
 # Getting started with Google OpenSK
-
-<aside class="mdx-author" markdown>
-![@makerdiary][@makerdiary avatar]
-
-<span>[makerdiary]</span>
-<span>
-:octicons-calendar-24: February 16, 2020 ·
-:octicons-clock-24: 10 min read
-</span>
-</aside>
-
-[makerdiary]: https://makerdiary.com
-[@makerdiary avatar]: https://avatars.githubusercontent.com/u/8767354
 
 ## Introduction
 
@@ -32,8 +21,6 @@ OpenSK is based on the FIDO2 specifications, which combine the World Wide Web Co
 The [nRF52840 MDK USB Dongle] works well with OpenSK. Taking advantage of the UF2 Bootloader, you can easily program the OpenSK by just copying the `.uf2`-format image to the flash drive.
 
 This guide details how to get started with the OpenSK using the nRF52840 MDK USB Dongle without going through the complete toolchain installation.
-
-![](../assets/images/ud52840-opensk-cover.png)
 
 ## What you'll need
 
@@ -48,11 +35,11 @@ Enter DFU mode by holding the dongle's __RESET/USR__ button during connecting to
 
 Copy `opensk_nrf52840_mdk_usb_dongle_gece14d7.uf2` image to __MDK-DONGLE__.
 
-![](../assets/images/copying-opensk-image.png)
+![](copying-opensk-image.png){ loading=lazy }
 
 When programming is completed, the OpenSK will run automatically. The device named __OpenSK__ will detected by the computer.
 
-![](../assets/images/checking-opensk-device.png)
+![](checking-opensk-device.png){ loading=lazy }
 
 ## Test OpenSK
 

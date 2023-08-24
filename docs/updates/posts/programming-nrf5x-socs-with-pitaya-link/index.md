@@ -1,27 +1,16 @@
 ---
-template: article.html
+title: Programming nRF5x SoCs with Pitaya-Link
+date: 2020-02-27
+authors:
+  - makerdiary
+cover: cover.png
 description: >
- This guide details how to get started with the OpenSK using the nRF52840 MDK USB Dongle without going through the complete toolchain installation.
-search:
-  exclude: false
-hide:
-  - feedback
+  Pitaya-Link is a low-cost debug probe based on the CMSIS-DAP (aka DAPLink) protocol standard. This post details how to program the nRF5x SoCs using Pitaya-Link.
 ---
 
+![](cover.png){ loading=lazy }
+
 # Programming nRF5x SoCs with Pitaya-Link
-
-<aside class="mdx-author" markdown>
-![@makerdiary][@makerdiary avatar]
-
-<span>[makerdiary]</span>
-<span>
-:octicons-calendar-24: February 27, 2020 ·
-:octicons-clock-24: 5 min read
-</span>
-</aside>
-
-[makerdiary]: https://makerdiary.com
-[@makerdiary avatar]: https://avatars.githubusercontent.com/u/8767354
 
 ## Introduction
 
@@ -35,7 +24,7 @@ This post is intended to assist users in the initial setup and demonstration of 
 
 ## What you'll need
 
-- A [Pitaya-Link Debug Probe]((https://makerdiary.com/products/pitaya-link))
+- A [Pitaya-Link Debug Probe](https://makerdiary.com/products/pitaya-link)
 - A macOS/Linux/Windows PC
 - An nRF52 target board(e.g. [nRF52840 MDK USB Dongle](https://makerdiary.com/products/nrf52840-mdk-usb-dongle))
 
@@ -69,7 +58,7 @@ Perform the following steps to connect your nRF5x target board:
 2. Connect Pitaya-Link to the PC using the provided USB-C Cable.
 3. A disk drive called __PITAYA-LINK__ will be automatically detected by the computer.
 
-![](../assets/images/pitaya-link-guide-cover.png)
+![](cover.png){ loading=lazy }
 
 ## Programming
 
@@ -84,7 +73,7 @@ Drag-And-Drop is an optional intuitive programming feature. It allows programmin
 
 There is no need to install application software. Anyone that can drag and drop a file to a USB memory stick can now program the target board.
 
-![](../assets/images/copy-hex-to-pitaya-link.webp)
+![](copy-hex-to-pitaya-link.webp){ loading=lazy }
 
 ### Using the pyocd executable
 

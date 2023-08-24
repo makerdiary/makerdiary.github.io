@@ -1,29 +1,16 @@
 ---
-template: article.html
+title: Introducing CircuitPython
+date: 2023-07-14
+authors:
+  - makerdiary
+cover: cover.png
 description: >
- CircuitPython is an implementation of Python for microcontrollers. With CircuitPython, there are no upfront desktop downloads needed. Once you get your board set up, open any text editor, and start editing code.
-search:
-  exclude: false
-hide:
-  - feedback
+  CircuitPython is an implementation of Python for microcontrollers. Once you get your board set up, open any text editor, and start editing code.
 ---
 
+![](cover.png){ loading=lazy }
+
 # Introducing CircuitPython
-
-<aside class="mdx-author" markdown>
-![@makerdiary][@makerdiary avatar]
-
-<span>[makerdiary]</span>
-<span>
-:octicons-calendar-24: July 14, 2023 ·
-:octicons-clock-24: 5 min read
-</span>
-</aside>
-
-[makerdiary]: https://makerdiary.com
-[@makerdiary avatar]: https://avatars.githubusercontent.com/u/8767354
-
-![](../assets/images/introducing-circuitpython-cover.png){ loading=lazy }
 
 ## What is CircuitPython?
 

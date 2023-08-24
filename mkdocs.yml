@@ -79,6 +79,33 @@ theme:
       button_secondary:
         label: Shop now
         link: https://makerdiary.com/collections/all-products
+    news:
+      viewall: updates
+      posts:
+        - title: Documentation Updated - nRF52840 MDK USB Dongle
+          excerpt: >-
+            We are excited to announce that Documentation v2.0.0 is now available! There are many updates
+            in this version that we hope you'll like.
+          cover: updates/documentation-updated-nrf52840-mdk-usb-dongle/cover.png
+          url: updates/documentation-updated-nrf52840-mdk-usb-dongle
+          date: 2023-08-07
+          readtime: 3
+        - title: Introducing CircuitPython
+          excerpt: >-
+            CircuitPython is an implementation of Python for microcontrollers. Once you get your board set up,
+            open any text editor, and start editing code.
+          cover: updates/introducing-circuitpython/cover.png
+          url: updates/introducing-circuitpython
+          date: 2023-07-14
+          readtime: 4
+        - title: nRF52840 Connect Kit is Here!
+          excerpt: >-
+            We are excited to announce the nRF52840 Connect Kit! It comes with a more mainstream form factor,
+            USB-C, 64 Mbit QSPI flash, flexible power management and a rich set of features.
+          cover: updates/nrf52840-connect-kit-is-here/cover.png
+          url: updates/nrf52840-connect-kit-is-here
+          date: 2023-06-25
+          readtime: 4
   collection_all:
     heading: Featured products
     cards:
@@ -194,56 +221,19 @@ theme:
         button_secondary:
           label: Buy now
           link: https://www.seeedstudio.com/Grove-Mesh-Kit-for-nRF52840-MDK-p-4053.html
-  blog:
-    heading: Latest updates
-    catalog: updates
-    newsletter: https://makerdiary.com/newsletter
-    articles:
-      - title: Introducing CircuitPython
-        cover: assets/images/introducing-circuitpython-cover.png
-        link: updates/introducing-circuitpython
-        date: July 14, 2023
-        reading_time: 5 min
-        excerpt: >-
-          CircuitPython is an implementation of Python for microcontrollers. With CircuitPython, there are
-          no upfront desktop downloads needed. Once you get your board set up, open any text editor,
-          and start editing code.
-      - title: nRF52840 Connect Kit is Here!
-        cover: assets/images/nrf52840-connectkit-intro-cover.png
-        link: updates/nrf52840-connectkit-is-here
-        date: June 25, 2023
-        reading_time: 3 min
-        excerpt: >-
-          We are excited to announce the nRF52840 Connect Kit! It comes with a more mainstream form factor,
-          USB-C, 64 Mbit QSPI flash, flexible power management and a rich set of features.
-      - title: Meet M60 Mechanical Keyboard
-        cover: assets/images/m60-updates-cover.png
-        link: updates/meet-m60-mechanical-keyboard
-        date: July 13, 2020
-        reading_time: 2 min
-        excerpt: >-
-          A few months ago, we made a hand-wired keyboard powered by Python. It is a typical prototype
-          which got a lot of feedback. So we designed M60 to turn it into production.
-      - title: Programming nRF5x SoCs with Pitaya-Link
-        cover: assets/images/pitaya-link-guide-cover.png
-        link: updates/programming-with-pitaya-link
-        date: February 27, 2020
-        reading_time: 5 min
-        excerpt: >-
-          This post is intended to assist users in the initial setup and demonstration of programming
-          Nordic's nRF5x SoCs with Pitaya-Link, a low-cost debug probe based on the CMSIS-DAP.
-      - title: Getting started with Google OpenSK
-        cover: assets/images/ud52840-opensk-cover.png
-        link: updates/getting-started-with-google-opensk
-        date: February 16, 2020
-        reading_time: 10 min
-        excerpt: >-
-          This guide details how to get started with the OpenSK using the nRF52840 MDK USB Dongle
-          without going through the complete toolchain installation.
 
 # Plugins
 plugins:
   - search
+  - blog:
+      blog_dir: updates
+      post_date_format: medium
+      pagination_per_page: 6
+      pagination_keep_content: true
+      post_url_format: "{slug}"
+      post_readtime_words_per_minute: 128
+      categories: false
+      archive: false
   # - git-revision-date-localized
   - minify:
       minify_html: true
@@ -270,7 +260,7 @@ extra:
     - icon: fontawesome/brands/discourse
       link: https://community.makerdiary.com
     - icon: fontawesome/brands/youtube
-      link: https://www.youtube.com/channel/UCX4nJNlsyj9VJeQOHgOs0yg
+      link: https://www.youtube.com/@makerdiary
     - icon: fontawesome/solid/blog
       link: https://blog.makerdiary.com
     - icon: fontawesome/brands/medium
@@ -326,11 +316,5 @@ nav:
   - Home: index.md
   - Products:
     - products/index.md
-  - Updates:
-    - updates/index.md
-    - Introducing CircuitPython: updates/introducing-circuitpython.md
-    - nRF52840 Connect Kit is Here!: updates/nrf52840-connectkit-is-here.md
-    - Meet M60 Mechanical Keyboard: updates/meet-m60-mechanical-keyboard.md
-    - Programming nRF5x SoCs with Pitaya-Link: updates/programming-with-pitaya-link.md
-    - Getting started with Google OpenSK: updates/getting-started-with-google-opensk.md
+  - Updates: updates/index.md
   - Discussions: https://github.com/orgs/makerdiary/discussions
