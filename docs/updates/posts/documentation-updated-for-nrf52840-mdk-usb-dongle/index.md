@@ -1,5 +1,5 @@
 ---
-title: Documentation Updated - nRF52840 MDK USB Dongle
+title: Documentation Updated for nRF52840 MDK USB Dongle
 date: 2023-08-07
 authors:
   - makerdiary

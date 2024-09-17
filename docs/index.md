@@ -6,4 +6,4 @@ hide:
   - toc
 ---
 
-# What's new
+# What's New

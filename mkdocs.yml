@@ -1,4 +1,4 @@
-# Copyright (c) 2016-2023 Makerdiary
+# Copyright (c) 2016-2024 Makerdiary
 #
 # SPDX-License-Identifier: Apache-2.0
 
@@ -13,49 +13,60 @@ site_description: >-
 # Repository
 repo_name: github.com/makerdiary
 repo_url: https://github.com/makerdiary
-edit_uri: ""
-#edit_uri: edit/main/docs
+edit_uri: edit/main/docs/
 
 # Copyright
-copyright: 'Copyright &copy; 2016-2023 <a href="https://makerdiary.com" target="_blank">makerdiary</a>'
+copyright: 'Copyright &copy; 2016-2024 <a href="https://makerdiary.com" target="_blank">makerdiary</a>'
 
 # Configuration
 theme:
   name: material
   custom_dir: docs/.overrides
   features:
-    # - announce.dismiss
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
     - content.code.annotate
     - content.code.copy
+    # - content.code.select
+    # - content.footnote.tooltips
     # - content.tabs.link
     - content.tooltips
     # - header.autohide
     # - navigation.expand
+    - navigation.footer
     - navigation.indexes
-    - navigation.instant
-    - navigation.prune
+    # - navigation.instant
+    # - navigation.instant.prefetch
+    # - navigation.instant.progress
+    # - navigation.prune
     - navigation.sections
     - navigation.tabs
     # - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
-    - navigation.footer
     - search.highlight
     - search.share
     - search.suggest
     - toc.follow
     # - toc.integrate
   palette:
-    - scheme: default
-      primary: custom
+    - media: "(prefers-color-scheme)"
       toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
-    - scheme: slate
-      primary: custom
-      toggle:
-        icon: material/weather-sunny
+        icon: material/link
         name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
   font:
     text: Roboto
     code: Roboto Mono
@@ -82,12 +93,20 @@ theme:
     news:
       viewall: updates
       posts:
-        - title: Documentation Updated - nRF52840 MDK USB Dongle
+        - title: iMX RT1011 Nano Kit is Here!
+          excerpt: >-
+            We are excited to announce the iMX RT1011 Nano Kit, a small, high-performing prototyping kit designed
+            around NXP iMX RT1011 Crossover MCU operating at up to 500 MHz.
+          cover: updates/imx-rt1011-nano-kit-is-here/cover.png
+          url: updates/imx-rt1011-nano-kit-is-here
+          date: 2024-09-17
+          readtime: 5
+        - title: Documentation Updated for nRF52840 MDK USB Dongle
           excerpt: >-
             We are excited to announce that Documentation v2.0.0 is now available! There are many updates
             in this version that we hope you'll like.
-          cover: updates/documentation-updated-nrf52840-mdk-usb-dongle/cover.png
-          url: updates/documentation-updated-nrf52840-mdk-usb-dongle
+          cover: updates/documentation-updated-for-nrf52840-mdk-usb-dongle/cover.png
+          url: updates/documentation-updated-for-nrf52840-mdk-usb-dongle
           date: 2023-08-07
           readtime: 3
         - title: Introducing CircuitPython
@@ -98,17 +117,17 @@ theme:
           url: updates/introducing-circuitpython
           date: 2023-07-14
           readtime: 4
-        - title: nRF52840 Connect Kit is Here!
-          excerpt: >-
-            We are excited to announce the nRF52840 Connect Kit! It comes with a more mainstream form factor,
-            USB-C, 64 Mbit QSPI flash, flexible power management and a rich set of features.
-          cover: updates/nrf52840-connect-kit-is-here/cover.png
-          url: updates/nrf52840-connect-kit-is-here
-          date: 2023-06-25
-          readtime: 4
   collection_all:
-    heading: Featured products
+    heading: Featured Products
     cards:
+      - cover: assets/images/imxrt1011-nanokit-cover.png
+        title: iMX RT1011 Nano Kit
+        button_primary:
+          label: Documentation
+          link: https://wiki.makerdiary.com/imxrt1011-nanokit
+        button_secondary:
+          label: Buy now
+          link: https://makerdiary.com/products/imxrt1011-nanokit
       - cover: assets/images/nrf52840-connectkit-cover.png
         title: nRF52840 Connect Kit
         button_primary:
@@ -255,8 +274,8 @@ extra:
       link: https://makerdiary.com
     - icon: fontawesome/brands/github
       link: https://github.com/makerdiary
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/makerdiary
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/makerdiary
     - icon: fontawesome/brands/discourse
       link: https://community.makerdiary.com
     - icon: fontawesome/brands/youtube
@@ -288,16 +307,19 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
   - pymdownx.highlight:
       anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.keys
   - pymdownx.magiclink:
+      normalize_issue_symbols: true
       repo_url_shorthand: true
       user: makerdiary
-      repo: makerdiary.github.io
+      repo: imxrt1011-nanokit
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.superfences:
@@ -307,6 +329,10 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde

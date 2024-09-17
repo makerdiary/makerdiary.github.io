@@ -6,4 +6,4 @@ hide:
   - toc
 ---
 
-# Latest updates
+# Latest Updates
