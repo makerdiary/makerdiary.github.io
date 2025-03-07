@@ -1,4 +1,4 @@
-# Copyright (c) 2016-2024 Makerdiary
+# Copyright (c) 2016-2025 Makerdiary
 #
 # SPDX-License-Identifier: Apache-2.0
 
@@ -13,10 +13,10 @@ site_description: >-
 # Repository
 repo_name: github.com/makerdiary
 repo_url: https://github.com/makerdiary
-edit_uri: edit/main/docs/
+edit_uri: ""
 
 # Copyright
-copyright: 'Copyright &copy; 2016-2024 <a href="https://makerdiary.com" target="_blank">makerdiary</a>'
+copyright: 'Copyright &copy; 2016-2025 <a href="https://makerdiary.com" target="_blank">makerdiary</a>'
 
 # Configuration
 theme:
@@ -90,160 +90,11 @@ theme:
       button_secondary:
         label: Shop now
         link: https://makerdiary.com/collections/all-products
-    news:
-      viewall: updates
-      posts:
-        - title: iMX RT1011 Nano Kit is Here!
-          excerpt: >-
-            We are excited to announce the iMX RT1011 Nano Kit, a small, high-performing prototyping kit designed
-            around NXP iMX RT1011 Crossover MCU operating at up to 500 MHz.
-          cover: updates/imx-rt1011-nano-kit-is-here/cover.png
-          url: updates/imx-rt1011-nano-kit-is-here
-          date: 2024-09-17
-          readtime: 5
-        - title: Documentation Updated for nRF52840 MDK USB Dongle
-          excerpt: >-
-            We are excited to announce that Documentation v2.0.0 is now available! There are many updates
-            in this version that we hope you'll like.
-          cover: updates/documentation-updated-for-nrf52840-mdk-usb-dongle/cover.png
-          url: updates/documentation-updated-for-nrf52840-mdk-usb-dongle
-          date: 2023-08-07
-          readtime: 3
-        - title: Introducing CircuitPython
-          excerpt: >-
-            CircuitPython is an implementation of Python for microcontrollers. Once you get your board set up,
-            open any text editor, and start editing code.
-          cover: updates/introducing-circuitpython/cover.png
-          url: updates/introducing-circuitpython
-          date: 2023-07-14
-          readtime: 4
-  collection_all:
-    heading: Featured Products
-    cards:
-      - cover: assets/images/imxrt1011-nanokit-cover.png
-        title: iMX RT1011 Nano Kit
-        button_primary:
-          label: Documentation
-          link: https://wiki.makerdiary.com/imxrt1011-nanokit
-        button_secondary:
-          label: Buy now
-          link: https://makerdiary.com/products/imxrt1011-nanokit
-      - cover: assets/images/nrf52840-connectkit-cover.png
-        title: nRF52840 Connect Kit
-        button_primary:
-          label: Documentation
-          link: https://wiki.makerdiary.com/nrf52840-connectkit
-        button_secondary:
-          label: Buy now
-          link: https://makerdiary.com/products/nrf52840-connectkit
-      - cover: assets/images/m60plate-cover.png
-        title: M60 Mechanical Keyboard Plate
-        button_primary:
-          label: Documentation
-          link: https://wiki.makerdiary.com/m60
-        button_secondary:
-          label: Buy now
-          link: https://makerdiary.com/products/m60-mechanical-keyboard-plate
-      - cover: assets/images/m60pcba-cover.png
-        title: M60 Mechanical Keyboard PCBA
-        button_primary:
-          label: Documentation
-          link: https://wiki.makerdiary.com/m60
-        button_secondary:
-          label: Buy now
-          link: https://makerdiary.com/products/m60-mechanical-keyboard-pcba
-      - cover: assets/images/m2devkit-cover.png
-        title: nRF52840 M.2 Developer Kit
-        button_primary:
-          label: Documentation
-          link: https://wiki.makerdiary.com/nrf52840-m2-devkit/
-        button_secondary:
-          label: Buy now
-          link: https://makerdiary.com/products/nrf52840-m2-developer-kit
-      - cover: assets/images/nrf52840-m2-module-cover.png
-        title: nRF52840 M.2 Module
-        button_primary:
-          label: Documentation
-          link: https://wiki.makerdiary.com/nrf52840-m2/
-        button_secondary:
-          label: Buy now
-          link: https://makerdiary.com/products/nrf52840-m2-module
-      - cover: assets/images/pitayalink-cover.png
-        title: Pitaya-Link CMSIS-DAP Debug Probe
-        button_primary:
-          label: Documentation
-          link: https://wiki.makerdiary.com/pitaya-link
-        button_secondary:
-          label: Buy now
-          link: https://makerdiary.com/products/pitaya-link
-      - cover: assets/images/pitaya-go-cover.png
-        title: Pitaya Go nRF52840 WiFi IoT Board
-        button_primary:
-          label: Documentation
-          link: https://wiki.makerdiary.com/pitaya-go
-        button_secondary:
-          label: Buy now
-          link: https://makerdiary.com/products/pitaya-go
-      - cover: assets/images/mdkdongle-pcba-cover.png
-        title: nRF52840 MDK USB Dongle (PCBA)
-        button_primary:
-          label: Documentation
-          link: https://wiki.makerdiary.com/nrf52840-mdk-usb-dongle
-        button_secondary:
-          label: Buy now
-          link: https://makerdiary.com/products/nrf52840-mdk-usb-dongle
-      - cover: assets/images/ud52840wcase-cover.png
-        title: nRF52840 MDK USB Dongle w/Case
-        button_primary:
-          label: Documentation
-          link: https://wiki.makerdiary.com/nrf52840-mdk-usb-dongle
-        button_secondary:
-          label: Buy now
-          link: https://makerdiary.com/products/nrf52840-mdk-usb-dongle-w-case
-      - cover: assets/images/mdk52840-cover.png
-        title: nRF52840-MDK IoT Development Kit
-        button_primary:
-          label: Documentation
-          link: https://wiki.makerdiary.com/nrf52840-mdk
-        button_secondary:
-          label: Buy now
-          link: https://makerdiary.com/products/nrf52840-mdk-iot-development-kit
-      - cover: assets/images/mdk52832v2-cover.png
-        title: nRF52832-MDK V2 IoT Development Kit
-        button_primary:
-          label: Documentation
-          link: https://wiki.makerdiary.com/nrf52832-mdk
-        button_secondary:
-          label: Buy now
-          link: https://makerdiary.com/products/nrf52832-mdk-v2-iot-development-kit
-      - cover: assets/images/mdk52832-cover.png
-        title: nRF52832-MDK IoT Development Kit
-        button_primary:
-          label: Documentation
-          link: https://wiki.makerdiary.com/nrf52832-mdk
-        button_secondary:
-          label: Buy now
-          link: https://makerdiary.com/products/nrf52832-mdk-iot-micro-development-kit
-      - cover: assets/images/base-dock-cover.png
-        title: Base Dock (Grove Compatible)
-        button_primary:
-          label: Documentation
-          link: https://wiki.makerdiary.com/base-dock
-        button_secondary:
-          label: Buy now
-          link: https://makerdiary.com/products/base-dock
-      - cover: assets/images/grove-mesh-kit-cover.png
-        title: Grove Mesh Kit for nRF52840-MDK
-        button_primary:
-          label: Documentation
-          link: https://wiki.makerdiary.com/grove-mesh-kit/
-        button_secondary:
-          label: Buy now
-          link: https://www.seeedstudio.com/Grove-Mesh-Kit-for-nRF52840-MDK-p-4053.html
 
 # Plugins
 plugins:
-  - search
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - blog:
       blog_dir: updates
       post_date_format: medium
@@ -256,6 +107,9 @@ plugins:
   # - git-revision-date-localized
   - minify:
       minify_html: true
+  - redirects:
+      redirect_maps:
+        'products.md': 'products/prototyping-kits.md'
   # TODO: Support Chinese
   # - i18n:
   #    default_language: en
@@ -319,7 +173,7 @@ markdown_extensions:
       normalize_issue_symbols: true
       repo_url_shorthand: true
       user: makerdiary
-      repo: imxrt1011-nanokit
+      repo: makerdiary.github.io
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.superfences:
@@ -341,6 +195,8 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Products:
-    - products/index.md
+    - Prototyping Kits: products/prototyping-kits.md
+    - Modules: products/modules.md
+    - Accessories: products/accessories.md
   - Updates: updates/index.md
   - Discussions: https://github.com/orgs/makerdiary/discussions

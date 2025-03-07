@@ -47,12 +47,10 @@ jobs:
         with:
           python-version: ${{ env.PYTHON_VERSION }}
 
-      - name: Set the date environmental variable
-        run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
-
-      - uses: actions/cache@v4
+      - name: Set up build cache
+        uses: actions/cache/restore@v4
         with:
-          key: mkdocs-material-${{ env.cache_id }}
+          key: mkdocs-material-${{ hashfiles('.cache/**') }}
           path: .cache
           restore-keys: |
             mkdocs-material-
