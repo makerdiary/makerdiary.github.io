@@ -10,35 +10,35 @@ hide:
 
 <div class="grid cards blog-cards" markdown>
 
--   [![](./updates/posts/introducing-nrf-cloud/cover.png)][introducing-nrf-cloud]
+-   [![](./updates/posts/interface-mcu-on-nrf54l15-connect-kit/cover.png)][interface-mcu-on-nrf54l15-connect-kit]
 
-    __[Introducing nRF Cloud][introducing-nrf-cloud]__
+    __[Interface MCU on nRF54L15 Connect Kit][interface-mcu-on-nrf54l15-connect-kit]__
 
-    nRF Cloud offers a suite of services optimized for Nordic ultra-low power wireless devices that supports your IoT deployment throughout its entire lifecycle.
+    The Interface MCU enables onboard debugging and programming, eliminating the need for external tools, while enabling access to board-specific features.
 
-    :octicons-calendar-24: Mar 11, 2025 ・ :octicons-clock-24: 4 min read
+    :octicons-calendar-24: Aug 23, 2025 ・ :octicons-clock-24: 3 min read
 
-    [introducing-nrf-cloud]: ./updates/posts/introducing-nrf-cloud/index.md
+    [interface-mcu-on-nrf54l15-connect-kit]: ./updates/posts/interface-mcu-on-nrf54l15-connect-kit/index.md
 
--   [![](./updates/posts/introducing-interface-mcu/cover.png)][introducing-interface-mcu]
+-   [![](./updates/posts/introducing-nrf-connect-sdk/cover.png)][introducing-nrf-connect-sdk]
 
-    __[Introducing Interface MCU][introducing-interface-mcu]__
+    __[Introducing nRF Connect SDK][introducing-nrf-connect-sdk]__
 
-    The Interface MCU simplifies debugging and programming of the nRF9151 SiP without external tools and provides access to board-specific features.
+    nRF Connect SDK is a scalable and unified software development kit for building low-power wireless applications based on the Nordic Semiconductor wireless devices.
 
-    :octicons-calendar-24: Mar 10, 2025 ・ :octicons-clock-24: 3 min read
+    :octicons-calendar-24: Aug 22, 2025 ・ :octicons-clock-24: 6 min read
 
-    [introducing-interface-mcu]: ./updates/posts/introducing-interface-mcu/index.md
+    [introducing-nrf-connect-sdk]: ./updates/posts/introducing-nrf-connect-sdk/index.md
 
--   [![](./updates/posts/nrf9151-connect-kit-is-here/cover.png)][nrf9151-connect-kit-is-here]
+-   [![](./updates/posts/nrf54l15-connect-kit-now-available/cover.png)][nrf54l15-connect-kit-now-available]
 
-    __[nRF9151 Connect Kit is Here!][nrf9151-connect-kit-is-here]__
+    __[nRF54L15 Connect Kit Now Available][nrf54l15-connect-kit-now-available]__
 
-    Today we are excited to launch our latest IoT prototyping kit, the nRF9151 Connect Kit, for LTE-M, NB-IoT, DECT NR+, and GNSS applications.
+    Today, we’re thrilled to launch the nRF54L15 Connect Kit, enabling developers to harness the advanced capabilities of Nordic’s nRF54L15 SoC for cutting-edge IoT designs.
 
-    :octicons-calendar-24: Mar 07, 2025 ・ :octicons-clock-24: 4 min read
+    :octicons-calendar-24: Aug 21, 2025 ・ :octicons-clock-24: 5 min read
 
-    [nrf9151-connect-kit-is-here]: ./updates/posts/nrf9151-connect-kit-is-here/index.md
+    [nrf54l15-connect-kit-now-available]: ./updates/posts/nrf54l15-connect-kit-now-available/index.md
 
 </div>
 

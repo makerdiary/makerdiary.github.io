@@ -13,6 +13,17 @@ hide:
 
 <div class="grid cards product-cards" markdown>
 
+-   [![](../assets/images/nrf54l15-connectkit-cover.png)][nrf54l15-connectkit-product]
+
+    [nRF54L15 Connect Kit][nrf54l15-connectkit-product]
+
+    [Buy now][nrf54l15-connectkit-product]{ .md-button .md-button--primary }
+
+    [Documentation][nrf54l15-connectkit-docs]{ .md-button }
+
+    [nrf54l15-connectkit-product]: https://makerdiary.com/products/nrf54l15-connectkit
+    [nrf54l15-connectkit-docs]: https://wiki.makerdiary.com/nrf54l15-connectkit
+
 -   [![](../assets/images/nrf9151-connectkit-cover.png)][nrf9151-connectkit-product]
 
     [nRF9151 Connect Kit][nrf9151-connectkit-product]
